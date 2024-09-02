@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+header{
+    height: 80vh;
+    width: 100%;
+}
+nav{
+    height: 12vh;
+    /* margin-right: 145px; */
+    width: 100%;
+    padding: 0px 15px !important;
+    display: flex;
+    flex-direction: row;
+    
+    
+    justify-content: space-around;
+}
+.div1{
+    border-right: 1px solid rgb(223, 218, 218);
+    height: inherit;
+    padding: 30px ;
+    position: relative;
+    bottom: 7px;
+    /* height: 50px; */
+    padding-right: 10px;
+}
+.search{
+    padding-bottom: 25px;
+    /* background-color: blue; */
+ 
+    width:800px;
+
+}
+.fa-cart-shopping{
+    position: relative;
+    left: 52px;
+    color: white;
+    font-size: 20px;
+}
+.finput{
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    width: 100%;
+    animation-name: scroll;
+    animation-duration: 2s;
+    /* background-color: aqua; */
+    color: rgb(0, 0, 0);
+    animation-iteration-count: infinite;
+}
+.b{
+    background-color: rgb(24, 136, 24) ;
+    padding: 15px 10px;
+    padding-left: 30px;
+    color: white;
+    border-radius: 10px;
+}
+.fa-search{
+    position: relative;
+    top:35px;
+    left: 15px;
+
+}
+.img1{
+    position: relative;
+    left: 85px;
+}
+.cards{
+    display: flex;
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    border: none;
+
+}
+.card{
+    
+    margin-left: 35px;
+    border:none !important;
+    height: 200px;
+    width: 400px;
+    
+}
+.card img{
+    border-radius: 15px;
+    transform: scale(0.9);
+}
+.page1{
+    height: 60vh;
+    background-color: rgb(249, 255, 255);
+    width: 100%;
+}
+.listsection{
+    height:500px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    left: 60px;
+    overflow: hidden;
+   
+}
+.listitems{
+    display: flex;
+    height: 200px;
+    width: 40px ;
+    /* margin: auto; */
+    /* padding-left: 60px; */
+    background-color: rgb(255, 255, 255);
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+.item{
+    height: 150px;
+    width: 130px;
+    /* padding: 5px; */
+    /* margin-left:15px; */
+    background-color: rgb(255, 255, 255);
+}
+.item img{
+    transform: scale(0.7);
+    
+    
+}
+.item2{
+    display: flex;
+    height: 200px;
+    width: 2000px;
+    margin: auto;
+    /* padding-left: 60px; */
+    background-color: rgb(255, 255, 255);
+}
+.item22{
+    height: 150px;
+    width: 130px;
+    
+    /* margin-left:15px; */
+    background-color: rgb(255, 255, 255);
+}
+.item22 img{
+    transform: scale(0.7);
+    
+}
+.fig img{
+    height: 260px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px;
+}
+.head div:last-child{
+    font-size: 30px;
+    color: green;
+}
+.scroll{
+    /* height: 400px; */
+    width: 100%;
+    
+}
+.slide1{
+    /* height: 400px; */
+    width:90%;
+    
+    /* display: flex; */
+}
+/* vgashgdvghsdvsggggggggggggewgdCVSGDCVVAV */
+.carousel-inner{
+    flex-wrap: nowrap;
+    /* overflow-x: auto; */
+}
+.carousel{
+    /* height: 400px; */
+    width: 100%;
+    margin: auto;
+    margin-left: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.carousel-item {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    /* Ensure only one carousel-item is visible at a time */
+    min-width: 100%;
+    /* flex-direction: column; */
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+
+
+/* .slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+.slide {
+  
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+} */
+/* 
+.i1{
+    /* display: flex; */
+    /* border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+} */ 
+ 
+.active img{
+    height: 150px;
+
+}
+.text{
+    padding-left: 25px;
+     
+}
+.r{width: 160px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+.r p{
+    margin-right: 15px;
+}
+.r button{
+ color: green;
+ background-color: rgb(199, 237, 199);   
+ border-radius: 10px;
+ padding: 5px 15px;
+ position: relative;
+ top: -10px;
+}
+#car{
+    display: flex;
+}
+#car2{
+    display: flex;
+}
+#car3{
+    display: flex;
+}
+.i1, .i2, .i3, .i4, .i5, .i6 {
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+   
+    width: 250px;
+    
+
+     /* Centers the item within the carousel */
+}
+.i1{
+    margin-left: 130px;
+}
+
+/* .slider{
+    display: flex;
+    height:400px ;
+     */
+/* 
+.i2{
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+    /* display: flex; */
+/* } */
+.i3{
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+}
+.i4{
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+}
+.i5{
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+}
+.i6{
+    border: 1px solid rgb(236, 228, 228);
+    transform: scale(0.8);
+    height: 420px;
+    width: 250px;
+    position: relative;
+    left: 120px;
+} */
+footer{
+   
+    padding-left: 40px;
+    padding-top: 40px;
+    /* height: 70vh; */
+    width: 85%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.headcol{
+    display: flex;
+    margin-left: 80px;
+    padding-left: 23px;
+}
+.headcol div{
+    padding-right: 100px;
+    /* border: 1px solid; */
+    line-height: 0.8em;
+    /* background-color: aqua; */
+    
+
+}
+.cc{
+    display: flex;
+    
+
+    /* height: 400px; */
+    /* background-color: yellow; */
+    /* border: 3px solid; */
+}
+.c{
+    line-height: 0.9em;
+    position: relative;
+    top: 0px;
+ 
+    /* background-color: rgb(34, 172, 126); */
+}
+.c pre{
+    /* border: 2px solid; */
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    left: -10px;
+    
+    text-decoration: none;
+    padding-right: 200px;
+    transform: scale(1.0);
+    line-height: 0.4em;
+    font-family: 'Times New Roman', Times, serif
+    /* background-color: rgb(151, 97, 31); */
+}
+.d{
+    position: relative;
+    height: 40px;
+    top: 5px;
+    left: -300px;
+    /* background-color: aqua; */
+}
+.headcol div:last-child{
+    /* width: 200px; */
+}
+.id2{
+   padding-top: 50px;
+   position: relative;
+   left: -30px;
+    transform: scale(0.9);
+}
+.headcol div:first-child p{
+    transform: scale(0.9);
+    position: relative;
+    left: 20px;
+}
+.headcol div:nth-child(5) pre{
+    transform: scale(0.9);
+    position: relative;
+    font-size: 18px;
+    line-height: 0.4em;
+    font-family: 'Times New Roman', Times, serif;
+    left: -440px;
+    top: 40px;
+    /* background-color: aquamarine; */
+    padding-right: 100px;
+    overflow: hidden;
+}
+.headcol div:last-child pre{
+    transform: scale(0.9);
+    position: relative;
+    font-size: 18px;
+    line-height: 0.4em;
+    font-family: 'Times New Roman', Times, serif;
+    left: -550px;
+    top: 40px;
+    /* background-color: aquamarine; */
+    padding-right: 100px;
+    overflow: hidden;
+}
+.headcol div:nth-child(3){
+    position: relative;
+    top: 60px;
+}
+.rs{
+    display: flex;
+}
+
+.ficons li{
+    list-style: none;
+   
+}
+.ficons{
+    display: flex;
+    padding: 10px;
+    transform: scale(0.8);
+}
+.ficons img{
+    position: relative;
+    top: -24px;
+    transform: scale(0.6);
+}
+.ficons i{
+    font-size: 50px;
+    padding-right: 19px;
+}
